@@ -1,6 +1,8 @@
 # Httpful
 
-[![Build Status](https://secure.travis-ci.org/nategood/httpful.png?branch=master)](http://travis-ci.org/nategood/httpful) [![Total Downloads](https://poser.pugx.org/nategood/httpful/downloads.png)](https://packagist.org/packages/nategood/httpful)
+[![Build Status](https://secure.travis-ci.org/themy3/httpful.png?branch=master)](http://travis-ci.org/themy3/httpful) [![Total Downloads](https://poser.pugx.org/themy3/httpful/downloads.png)](https://packagist.org/packages/themy3/httpful)
+
+### [nategood/httpful](https://github.com/nategood/httpful) fork with PHP 8.1 compatibility.
 
 Httpful is a simple Http Client library for PHP 7.2+.  There is an emphasis of readability, simplicity, and flexibility – basically provide the features and flexibility to get the job done and make those features really easy to use.
 
@@ -36,11 +38,11 @@ echo "{$response->body->name} joined GitHub on " .
 
 ## Composer
 
-Httpful is PSR-0 compliant and can be installed using [composer](http://getcomposer.org/).  Simply add `nategood/httpful` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
+Httpful is PSR-0 compliant and can be installed using [composer](http://getcomposer.org/).  Simply add `themy3/httpful` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
 
     {
         "require": {
-            "nategood/httpful": "*"
+            "themy3/httpful": "*"
         }
     }
 
@@ -66,6 +68,10 @@ Httpful highly encourages sending in pull requests.  When submitting a pull requ
  - Include commenting where appropriate and add a descriptive pull request message
 
 # Changelog
+
+## 0.3.3
+
+ - Add PHP 8.1 compatibility
 
 ## 0.3.2
 
@@ -223,4 +229,3 @@ Httpful highly encourages sending in pull requests.  When submitting a pull requ
   - Created AbstractMimeHandler type that all Mime Handlers must extend
   - Pulled out the parsing/serializing logic from the Request/Response classes into their own MimeHandler classes
   - Added ability to register new mime handlers for mime types
-
