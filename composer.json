@@ -4,7 +4,7 @@
     "homepage": "http://github.com/themy3/httpful",
     "license": "MIT",
     "keywords": ["http", "curl", "rest", "restful", "api", "requests"],
-    "version": "0.3.2",
+    "version": "0.3.3",
     "authors": [
         {
             "name": "Yaroslav Molchan",
