@@ -42,7 +42,7 @@ Httpful is PSR-0 compliant and can be installed using [composer](http://getcompo
 
     {
         "require": {
-            "themy3/httpful": "^0.3"
+            "themy3/httpful": "^0.4"
         }
     }
 
@@ -69,7 +69,7 @@ Httpful highly encourages sending in pull requests.  When submitting a pull requ
 
 # Changelog
 
-## 0.3.3
+## 0.4.0
 
  - Add PHP 8.1 compatibility
 
