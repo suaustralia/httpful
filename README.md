@@ -69,6 +69,10 @@ Httpful highly encourages sending in pull requests.  When submitting a pull requ
 
 # Changelog
 
+## 0.4.2
+
+- Use correct deprecation suppression syntax
+
 ## 0.4.1
 
 - Add composer replace to enable substituting for nategood/httpful
