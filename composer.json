@@ -1,7 +1,7 @@
 {
-    "name": "themy3/httpful",
+    "name": "suaustralia/httpful",
     "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
-    "homepage": "http://github.com/themy3/httpful",
+    "homepage": "https://github.com/suaustralia/httpful",
     "license": "MIT",
     "keywords": ["http", "curl", "rest", "restful", "api", "requests"],
     "version": "0.4.0",
@@ -17,6 +17,9 @@
             "homepage": "http://nategood.com"
         }
     ],
+    "replace": {
+        "nategood/httpful": "^0.2.20"
+    },
     "require": {
         "php": ">=7.2",
         "ext-curl": "*"
