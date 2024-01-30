@@ -69,6 +69,10 @@ Httpful highly encourages sending in pull requests.  When submitting a pull requ
 
 # Changelog
 
+## 0.4.1
+
+- Add composer replace to enable substituting for nategood/httpful
+
 ## 0.4.0
 
  - Add PHP 8.1 compatibility
