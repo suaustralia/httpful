@@ -64,6 +64,7 @@ final class Headers implements \ArrayAccess, \Countable {
      * @param string $offset
      * @param string $value
      * @throws \Exception
+     * @return void
      */
     #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
@@ -74,6 +75,7 @@ final class Headers implements \ArrayAccess, \Countable {
     /**
      * @param string $offset
      * @throws \Exception
+     * @return void
      */
     #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
